@@ -12,7 +12,7 @@
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0,
 		"barbarianSpawnDelay": 1,
-		"playerBonusStartingUnits": [Civilian Convoy, Scout], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
+		"playerBonusStartingUnits": [], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
 		"aiCityGrowthModifier": 1, // that is to say it'll take them 1.6 times as long to grow the city
 		"aiUnitCostModifier": 1,
 		"aiBuildingCostModifier": 1,
@@ -21,8 +21,8 @@
 		"aiUnitMaintenanceModifier": 1,
 		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [],
-		"aiMajorCivBonusStartingUnits": [Civilian Convoy, Scout],
-		"aiCityStateBonusStartingUnits": [Civilian Convoy, Scout],
+		"aiMajorCivBonusStartingUnits": [],
+		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 0,
