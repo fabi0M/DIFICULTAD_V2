@@ -2,7 +2,7 @@
 	{
 		"name": "Settler",
 		"baseHappiness": 10,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,
@@ -10,7 +10,7 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.4,
+		"barbarianBonus": 0,
 		"barbarianSpawnDelay": 1,
 		"playerBonusStartingUnits": [Civilian Convoy, Scout], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
 		"aiCityGrowthModifier": 1, // that is to say it'll take them 1.6 times as long to grow the city
@@ -21,8 +21,8 @@
 		"aiUnitMaintenanceModifier": 1,
 		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [],
-		"aiMajorCivBonusStartingUnits": [],
-		"aiCityStateBonusStartingUnits": [],
+		"aiMajorCivBonusStartingUnits": [Civilian Convoy, Scout],
+		"aiCityStateBonusStartingUnits": [Civilian Convoy, Scout],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 0,
